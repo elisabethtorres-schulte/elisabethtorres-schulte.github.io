@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lizzy T. | My Work</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Calibri', sans-serif;
+      background: #fefefe;
+      color: #2c3e50;
+    }
+    header {
+      background: #f8f8f8; /* Color W */
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+    header nav a {
+      margin-left: 20px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      min-height: calc(100vh - 50px);
+      background: linear-gradient(135deg, #d6eaff, #d6d6ff, #e6d6ff);
+      padding: 40px;
+      position: relative;
+    }
+    :root {
+      --colorP: #6a4caf;
+      --colorW: #f8f8f8;
+    }
+    .work-box {
+      width: 45%;
+      border: 3px solid var(--colorP);
+      border-radius: 8px;
+      margin: 80px 0;
+      background: var(--colorW);
+      position: relative;
+    }
+    .work-header {
+      background: var(--colorP);
+      padding: 10px;
+      border-radius: 5px 5px 0 0;
+    }
+    .work-header h3 {
+      margin: 0;
+      font-size: 18px;
+      color: var(--colorW);
+    }
+    .work-content {
+      padding: 15px;
+    }
+    .work-content p {
+      margin: 10px 0;
+    }
+    .work-item {
+      position: relative;
+      z-index: 1;
+    }
+    .align-right { margin-left: auto; }
+    .align-center { margin: 0 auto; }
+    .align-left { margin-right: auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lizzy T.</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="mywork.html">My Work</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="work-item work-box align-right" id="box1">
+      <div class="work-header">
+        <h3>Most Recent Research Experience</h3>
+      </div>
+      <div class="work-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Brief description of the project and role.</p>
+        <p><strong>Takeaways:</strong> Key lessons learned and how this shaped my research path.</p>
+      </div>
+    </div>
+
+    <div class="work-item work-box align-center" id="box2">
+      <div class="work-header">
+        <h3>Second Research Experience</h3>
+      </div>
+      <div class="work-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Brief description of the project and role.</p>
+        <p><strong>Takeaways:</strong> Key lessons learned and how this shaped my research path.</p>
+      </div>
+    </div>
+
+    <div class="work-item work-box align-left" id="box3">
+      <div class="work-header">
+        <h3>Third Research Experience</h3>
+      </div>
+      <div class="work-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Brief description of the project and role.</p>
+        <p><strong>Takeaways:</strong> Key lessons learned and how this shaped my research path.</p>
+      </div>
+    </div>
+
+    <div class="work-item work-box align-center" id="box4">
+      <div class="work-header">
+        <h3>Fourth Research Experience</h3>
+      </div>
+      <div class="work-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Brief description of the project and role.</p>
+        <p><strong>Takeaways:</strong> Key lessons learned and how this shaped my research path.</p>
+      </div>
+    </div>
+
+    <div class="work-item work-box align-right" id="box5">
+      <div class="work-header">
+        <h3>Fifth Research Experience</h3>
+      </div>
+      <div class="work-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Brief description of the project and role.</p>
+        <p><strong>Takeaways:</strong> Key lessons learned and how this shaped my research path.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
