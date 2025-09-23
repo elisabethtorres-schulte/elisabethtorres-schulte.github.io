@@ -5,9 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Elisabeth Torres-Schulte | Work Samples</title>
   <style>
-  a:hover {
-    color: #6a4caf; /* purple */
+  :root {
+    --colorP: #6a4caf; /* your purple accent */
   }
+  
+a:hover,
+.sample-item a:hover,
+.header-link:hover,
+header nav a:hover {
+  color: var(--colorP);
+}
+
 
     body {
       margin: 0;
@@ -72,8 +80,6 @@
       margin: 20px auto;
       width: 70%;
     }
-    a:hover {
-    color: #6a4caf; /* purple */
   }
     .sample-item h3 {
       margin-top: 0;
@@ -84,9 +90,7 @@
       font-weight: bold;
       text-decoration: underline;
     }
-    .sample-item a:hover {
-      color: var(--colorP);  /* change accent color to purple when hovering */;
-    }
+   
   </style>
 </head>
 <body>
