@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Elisabeth Torres-Schulte | My Work</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Calibri', sans-serif;
+      background: #fefefe;
+      color: #2c3e50;
+    }
+    header {
+      background: #f8f8f8; /* Color W */
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+  .header-link {
+    color: inherit;          /* use the same color as the h1 */
+    }
+  .header-link:visited {
+    color: inherit;          /* keep same color even after visiting */
+    }
+  .header-link:hover {
+    color: var(--colorP);  /* change accent color to purple when hovering */
+    }
+    header nav a {
+      margin-left: 20px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      min-height: calc(100vh - 50px);
+      background: linear-gradient(135deg, #d6eaff, #d6d6ff, #e6d6ff);
+      padding: 40px;
+    }
+    .intro {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    .intro a {
+      color: #6a4caf;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .intro a:hover {
+      text-decoration: underline;
+    }
+    .sample-item {
+      background: #f8f8f8;
+      border: 2px solid #6a4caf;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 70%;
+    }
+    .sample-item h3 {
+      margin-top: 0;
+      color: #6a4caf;
+    }
+    .sample-item a {
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .sample-item a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+     <h1>
+      <a href="https://elisabethtorres-schulte.github.io/index.html" class="header-link"> Elisabeth Torres-Schulte<a/>
+    </h1>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="pages/mywork.html">My Work</a>
+      <a href="pages/cv.html">CV</a>
+      <a href="pages/mysamples.html">My Samples</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="intro">
+      Request access to all samples <a href="https://drive.google.com/drive/folders/YOUR-FOLDER-ID" target="_blank">here</a>.
+    </div>
+
+    <div class="sample-item">
+      <h3>Responsible AI Whitepaper</h3>
+      <p>Published piece exploring risk mitigation in AI. <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank">View PDF</a></p>
+    </div>
+
+    <div class="sample-item">
+      <h3>AI Native Leadership Framework</h3>
+      <p>Framework on AI native leadership principles for scaling innovation. <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank">View PDF</a></p>
+    </div>
+
+    <div class="sample-item">
+      <h3>Conference Presentation</h3>
+      <p>Slide deck from recent talk on democratizing AI. <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank">View Slides</a></p>
+    </div>
+  </div>
+</body>
+</html>
