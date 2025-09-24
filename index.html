@@ -103,8 +103,8 @@ header-link:hover {
       list-style-type: disc;
       padding-left: 20px;
     }
-    /* ======================
-   Responsive Mobile Styles
+  /* ======================
+   Responsive Mobile Layout
    ====================== */
 @media (max-width: 768px) {
   header {
@@ -124,11 +124,25 @@ header-link:hover {
   }
 
   .container {
+    display: flex;
+    flex-direction: column;  /* stack sidebar above content */
+    align-items: center;
     padding: 20px;
   }
 
-  /* Make content boxes full width */
-  .sidebar,
+  .sidebar {
+    width: 100% !important;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 10px auto;
+  }
+
   .content,
   .work-box,
   .sample-item {
@@ -136,19 +150,6 @@ header-link:hover {
     margin: 15px 0 !important;
   }
 
-  /* Center profile photo + name on small screens */
-  .sidebar {
-    align-items: center;
-    text-align: center;
-  }
-
-  /* Adjust profile image size for mobile */
-  .profile-pic {
-    width: 150px;
-    height: 150px;
-  }
-
-  /* Adjust headings */
   h1, h2, h3 {
     font-size: 90%;
   }
