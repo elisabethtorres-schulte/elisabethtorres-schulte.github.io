@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elisabeth Torres-Schulte | Proposed Research</title>
+  <style>
+    /* --- General Styles (Copied from index.html for consistency) --- 
+    */
+    :root {
+      --colorP: #6a4caf; /* your purple accent */
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Calibri', sans-serif;
+      background: #fefefe;
+      color: #2c3e50;
+    }
+    
+    header {
+      background: #f8f8f8;
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .header-link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .header-link:hover,
+    header nav a:hover {
+      color: var(--colorP);
+      text-decoration: underline;
+    }
+    
+    header nav a {
+      margin-left: 20px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: var(--colorP);
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    h3 {
+        color: #34495e; /* Darker secondary color */
+        margin-top: 25px;
+    }
+
+    .phase-section {
+        margin-bottom: 40px;
+        padding-left: 20px;
+        border-left: 3px solid #eee;
+    }
+    
+    .phase-section:hover {
+        border-left: 3px solid var(--colorP);
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ul li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    ul li::before {
+        content: '•'; /* Custom bullet point */
+        color: var(--colorP); 
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html" class="header-link">Elisabeth Torres-Schulte</a></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="mywork.html">My Work</a>
+      <a href="samples.html">Samples</a>
+      <a href="research.html">Culturally Aware Robotics</a> <!-- Added link -->
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Humanoid Robot Cultural Awareness: Methods and Experience</h2>
+    
+    <p>
+      **Proposed PhD Research Focus:** Developing and validating a training protocol to develop sociocultural awareness in humanoid robots. This facilitates robot adaptation to the microculture of the environments they are deployed into, allowing them to respond to real-time, context-dependent social cues, increasing their efficacy overall, but especially for caregiving for vulnerable, diverse populations.
+    </p>
+
+    <h3>Inspiration</h3>
+    <p>
+      My interest is rooted in witnessing caregiving crises which exposed the limits of human endurance in providing sensitive, non-stop care. A successful caregiving robot must manage physically demanding tasks while understanding a family's unique **microculture** (authority, communication norms, faith). The following three phase approach directly ties my background to the skills necessary to design this complex socio-technical solution, using a home robot as an example.
+    </p>
+
+    <!-- Phase I -->
+    <div class="phase-section">
+      <h3>Phase I: Define and Operationalize "Microculture"</h3>
+      <p>
+        **Goal:** Establish a framework for translating abstract cultural norms into behavioral parameters for robot training.
+      </p>
+      <h4>Key Actions:</h4>
+      <ul>
+        <li>**Defining and Evaluating Microculture:** Define "microculture awareness" as the robot’s ability to assess, quantify, and respond with adaptive behavior to the unique sociocultural environment into which it is deployed.</li>
+        <li>**Literature Review:** Synthesize work across anthropology, sociology, and cognitive science to identify observable, quantifiable social cues (e.g., proxemics, paralanguage, nonverbal signaling) that define a microculture.</li>
+        <li>**Tool Development:** Develop a Microculture Assessment Tool (MAT) for human users to input initial cultural parameters into the robot's system before deployment.</li>
+      </ul>
+    </div>
+
+    <!-- Phase II -->
+    <div class="phase-section">
+      <h3>Phase II: Data Collection, Training, and Validation</h3>
+      <p>
+        **Goal:** Develop and validate the training protocol using a physical humanoid robot.
+      </p>
+      <h4>Key Actions:</h4>
+      <ul>
+        <li>**Dataset Creation:** Collect a novel dataset of human-human and human-robot interactions focusing on context-dependent social dynamics across various microcultural settings.</li>
+        <li>**Adaptive Training Protocol:** Implement a reinforcement learning model where the robot's reward function is dynamically modified by the MAT framework and real-time human feedback, allowing the robot to 'learn' the acceptable range of behaviors.</li>
+        <li>**Validation:** Conduct user studies to measure human trust, acceptance, and perceived efficacy of the culturally-aware robot versus a baseline (culturally-unaware) robot.</li>
+      </ul>
+    </div>
+
+    <!-- Phase III -->
+    <div class="phase-section">
+      <h3>Phase III: Ethical Architecture and Governance</h3>
+      <p>
+        **Goal:** Design a robust socio-technical governance framework to ensure safe, ethical, and accountable deployment.
+      </p>
+      <h4>Key Actions:</h4>
+      <ul>
+        <li>**Risk Architecture:** Analyze the systemic risks of deploying culturally sensitive AI in a private home (e.g., data privacy, misuse, emotional manipulation).</li>
+        <li>**Guardrails Design:** The framework must include rigorous guardrails, stop gaps, and transparency checkpoints to mitigate risk and protect human agency.</li>
+        <li>**Accountability Design:** Define formal roles, responsibilities, and success metrics required for a robotic system to operate ethically within a shared human environment.</li>
+      </ul>
+    </div>
+    
+    <h2>Evidence of Capability</h2>
+    <p>My past experience directly supports the interdisciplinary demands of this research:</p>
+    <ul>
+      <li>**Socio-Technical Systems Analysis:** My work advising CEOs on AI governance demonstrates the ability to critically analyze systemic risks and design formal governance frameworks, directly applying to the Risk and Accountability sections of Phase III.</li>
+      <li>**Defining Accountability:** Developing proprietary frameworks like the Shared Outcome Ownership Framework (utilized by PwC) proves my capability to define responsibility and risk mitigation in complex AI systems.</li>
+      <li>**Defining Boundaries:** Direct caregiving experience clarifies what decisions must be made by humans (e.g., medication adjustment) versus what can be delegated to robots, which is critical for the ethical deployment in Phase III.</li>
+    </ul>
+
+  </div>
+</body>
+</html>
